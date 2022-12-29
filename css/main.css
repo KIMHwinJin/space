@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.main_container {
+  height: 100vh;
+  position: relative;
+}
+
+.container {
+  width: 1440px;
+  height: 1024px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border: #fff;
+  border-radius: 40px;
+}
+
+/* menu */
+.menu {
+  width: 1300px;
+  height: 62px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu .logo h2 {
+  line-height: 62px;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.menu .left {
+  display: flex;
+  position: absolute;
+  line-height: 62px;
+  top: 0;
+  left: 126px;
+  gap: 50px;
+  font-size: 18px;
+}
+
+.menu .right {
+  display: flex;
+  gap: 66px;
+  line-height: 62px;
+  font-size: 18px;
+}
+
+.menu .right .bl {
+  width: 114px;
+  height: 62px;
+  background-color: #171a1f;
+  border-radius: 10px;
+  display: block;
+}
+
+.menu .right .black_btn {
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+/* menu끝 */
+
+.mid {
+  display: flex;
+  justify-content: space-between;
+  width: 1300px;
+  height: 680px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 56px;
+}
+
+.mid .photo img {
+  width: 616px;
+  height: 680px;
+}
+
+.mid .join {
+  position: absolute;
+  top: 38px;
+  left: 803px;
+  text-align: center;
+}
+
+.mid .join .detail {
+  display: flex;
+  flex-direction: column;
+}
+
+.mid .join .title h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 62px;
+}
+
+.mid .join .title p {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 62px;
+  margin-bottom: 18px;
+  color: #b5abab;
+}
+
+.mid .join .detail {
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.mid .join .detail input {
+  width: 436px;
+  height: 70px;
+  background-color: #f3f3f3;
+  border: none;
+  border-radius: 10px;
+  padding: 32px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #4b4a4a;
+  letter-spacing: 2%;
+}
+
+.mid .join .detail input:focus {
+  outline: none;
+  border: 1px solid #ffd917;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+}
+
+.mid .join button {
+  width: 436px;
+  height: 86px;
+  border: none;
+  background-color: #ffd917;
+  color: #4b4a4a;
+  font-size: 23px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.join .text p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #c0bdbd;
+}
+
+.join .text p span {
+  text-decoration: underline;
+}
